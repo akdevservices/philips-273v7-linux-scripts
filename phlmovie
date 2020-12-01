@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo ddccontrol dev:/dev/i2c-2 -r 0xdc -w 3 >/dev/null 2>&1
